@@ -13,5 +13,9 @@ namespace Web411018824.Controllers
         {
             return View();
         }
+        public ActionResult HW3()
+        {
+            return View();
+        }
     }
 }
