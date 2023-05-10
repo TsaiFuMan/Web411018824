@@ -3,7 +3,11 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2><br />
+<h1>Index</h1><br />
+<h3>Index</h3><br />
+<h5>Index</h5><br />
+
+
 
 @using (Html.BeginForm("Index", "Test", FormMethod.Post))
 {
@@ -18,5 +22,9 @@
         關於我:@Html.TextArea("about")
     </div>
 }
-
+@{
+    var message = "hi";
+}
+<p>@message</p>
+<p>@DateTime.Now</p>
 
